@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.carre {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+
+#carre1 {
+    background-color: darkgreen;
+}
+
+#carre2 {
+    background-color: darkred;
+}
+
+#carre3 {
+    background-color: darkblue;
+}
+
+#carre4 {
+    background-color: gold;
+}
+
+#carre5 {
+    background-color: black;
+    position: absolute;
+    top: 215px;
+}

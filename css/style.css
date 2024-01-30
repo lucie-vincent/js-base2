@@ -16,6 +16,7 @@
     height: 200px;
     width: 200px;
     cursor: pointer;
+    border: 1px solid grey ;
 }
 
 #carre1 {
@@ -35,7 +36,17 @@
 }
 
 #carre5 {
-    background-color: black;
+    background-color: transparent;
     position: absolute;
     top: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carre5 p.codeCouleur {
+    visibility: hidden;
+    color: black;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif; 
 }

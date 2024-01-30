@@ -14,10 +14,8 @@ let carre5Style = window.getComputedStyle(carre5);
 
 
 function afficherCodeCouleur(carreStyle) {
-    // afficher le texte + changer contenu texte
     codeCouleur.style.visibility = "visible";
     codeCouleur.textContent = `${carreStyle.backgroundColor}`;
-
 }
 
 function changerCouleur(carreStyle) {

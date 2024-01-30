@@ -11,28 +11,38 @@ let carre3Style = window.getComputedStyle(carre3);
 let carre4Style = window.getComputedStyle(carre4);
 let carre5Style = window.getComputedStyle(carre5);
 
-function afficherCouleur(carreStyle) {
+
+
+function afficherCodeCouleur(carreStyle) {
     // afficher le texte + changer contenu texte
     codeCouleur.style.visibility = "visible";
     codeCouleur.value = `${carreStyle.backgroundColor}`;
 
-    // essai changer couleur
-    // carre5Style.style.backgroundColor = carreStyle.style.backgroundColor;
 }
 
-carre1.addEventListener('click', function() {
-    afficherCouleur(carre1Style)
+function changerCouleur(carreStyle) {
+    carre5Style.style.backgroundColor = carreStyle.style.backgroundColor;
+}
+
+
+
+carre1.addEventListener('click', () => {
+    afficherCodeCouleur(carre1Style)
+    changerCouleur(carre1Style)
 });
 
 carre2.addEventListener('click', function() {
-    afficherCouleur(carre2Style)
+    afficherCodeCouleur(carre2Style)
+    changerCouleur(carre2Style)
 });
 
 carre3.addEventListener('click', function() {
-    afficherCouleur(carre3Style)
+    afficherCodeCouleur(carre3Style)
+    changerCouleur(carre3Style)
 });
 
 carre4.addEventListener('click', function() {
-    afficherCouleur(carre4Style)
+    afficherCodeCouleur(carre4Style)
+    changerCouleur(carre4Style)
 });
 

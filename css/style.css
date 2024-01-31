@@ -19,20 +19,21 @@
     border: 1px solid grey ;
 }
 
+
 #carre1 {
-    background-color: darkgreen;
+    background-color: #006400;
 }
 
 #carre2 {
-    background-color: darkred;
+    background-color: #8b0000;
 }
 
 #carre3 {
-    background-color: darkblue;
+    background-color: #00008b;
 }
 
 #carre4 {
-    background-color: gold;
+    background-color: #ffd700;
 }
 
 #carre5 {
@@ -46,7 +47,7 @@
 
 #carre5 p.codeCouleur {
     visibility: hidden;
-    color: black;
+    color: white;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif; 
 }
